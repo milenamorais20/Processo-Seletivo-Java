@@ -82,6 +82,7 @@ public class ProcessoSeletivo {
         }
     }
 
+    //método auxiliar
     static double valorPretendido(){
         return ThreadLocalRandom.current().nextDouble(1800.0,2200.0);
     }
